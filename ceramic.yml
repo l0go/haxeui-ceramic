@@ -1,0 +1,9 @@
+plugin:
+    name: HaxeUI
+
+    runtime:
+      if plugin_haxeui:
+        +libs:
+          - haxeui-core
+        +assets:
+          - '{plugin:cwd}/assets'
